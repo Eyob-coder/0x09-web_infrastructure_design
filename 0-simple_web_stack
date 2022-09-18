@@ -43,6 +43,6 @@ Issues with the infrastructure:
 2. Downtime when it is updating requires for the whole system to be
         shutdown, at this time users will not be able to access the services
         because there is no other server that can take its place.
-        3. It is using a single server that can be overloaded with incoming
+3. It is using a single server that can be overloaded with incoming
         bulky traffic. This can cause server crashing. There is no scalability
         because we don't have another server.
